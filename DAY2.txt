@@ -5,3 +5,5 @@ This module is not normally accessed explicitly by most applications,
 but can be useful in modules that provide objects with the same name as a built-in value,
 but in which the built-in of that name is also needed.
 For example, in a module that wants to implement an open() function that wraps the built-in open(), this module can be used directly
+
+output is __main__
